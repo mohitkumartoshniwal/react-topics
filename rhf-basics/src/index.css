@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+#root {
+  height: 100vh;
+  width: 100%;
+}
+
+form {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+label {
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  display: block;
+  width: 25rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.error {
+  color: red;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 0 1rem;
+  margin-top: 1rem;
+}
